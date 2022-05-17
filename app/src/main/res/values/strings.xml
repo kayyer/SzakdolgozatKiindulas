@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Eventes</string>
+    <string name="my_creations">My creations</string>
+    <string name="i_ll_be_here">I\'ll be here</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="create">Create</string>
+    <string name="create_event">Create event</string>
+    <string name="cim">Cim</string>
+    <string name="datum">Datum</string>
+    <string name="leiras">Leiras</string>
+    <string name="ott_lesznek">Ott lesznek</string>
+    <string name="csinalta">Csinalta</string>
+    <string name="hely">Hely</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+</resources>

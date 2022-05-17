@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context=".LoginActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="15dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="150dp"
+            android:background="@drawable/roundedtextview"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/vpLogin"
+            app:layout_constraintTop_toTopOf="@+id/vpLogin" />
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
